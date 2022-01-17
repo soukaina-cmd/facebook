@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 235, 236)
+    
+}
+/* container-fluid */
+#fac{
+    margin-top: 120px;
+}
+/* facbook */
+#fa{
+    color:rgb(38, 150, 224);
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 50px;
+}
+/* div qui range les input */
+#va{
+    border-radius: 10px ;
+    text-align: center;
+    background-color:white;
+    padding: 15px;
+}
+/* input */
+#in{
+    margin-top: 10px;
+}
+/* Cree une page */
+#cu{
+    cursor: pointer;
+    font-weight: bold;
+}
+/* hover soulignee */
+#cu:hover{
+text-decoration: underline;
+}
+/* les atriu des balise :: */
+::placeholder{
+    font-size: 15px!important;
+}
+/* mot de passe */
+#mo{
+    color: rgb(52, 163, 197);
+    margin-top: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* hover soulignee */
+#mo:hover{
+    text-decoration: underline;
+}
+/* paragraphe */
+#p{
+    text-align:center ;
+    margin-top: 15px;
+}
+#logerreur,#passerreur{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    padding-left:15px ;
+    display: none;
+}
